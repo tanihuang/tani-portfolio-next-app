@@ -1,0 +1,12 @@
+@import '../resources';
+
+.home { 
+  
+  main {
+
+    p {
+      max-width: rem(500px);
+      color: $secondary-color;
+    }
+  }
+}

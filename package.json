@@ -1,0 +1,37 @@
+{
+  "name": "portfolio-next-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:static": "next build && next export",
+    "start": "next start",
+    "lint:js": "eslint \"src/**/*.js\""
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "classnames": "^2.2.6",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^8.0.0",
+    "isotope-layout": "^3.0.6",
+    "next": "10.0.4",
+    "next-optimized-images": "^2.6.2",
+    "react": "17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "17.0.1",
+    "react-ga": "^3.3.0",
+    "sass": "^1.30.0",
+    "typeface-poppins": "^1.1.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/eslint-parser": "^7.12.1",
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5"
+  }
+}

@@ -1,0 +1,27 @@
+@import '~typeface-poppins/';
+
+h1 {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: inherit;
+}
+
+h2 {
+  font-size: rem(38px);
+
+  &.font-weight-light {
+    font-size: rem(26px);
+  }
+}
+
+h3 {
+  font-size: rem(16px);
+  font-weight: 300;
+  margin-bottom: rem(25px);
+}
+
+p {
+  font-weight: 300;
+  font-size: rem(14px);
+  line-height: rem(26px);
+}

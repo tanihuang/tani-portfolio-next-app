@@ -1,0 +1,142 @@
+.header {
+  position: fixed;
+  width: 100%;
+  height: rem(100px);
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  pointer-events: none;
+
+  .navbar {
+    display: flex;
+    width: 100%;
+    padding: 0;
+
+    .navbar-brand {
+
+      pointer-events: auto;
+      &.active {
+        color: #fff;
+        transition: color 0.3s 0.3s;
+      }
+    }
+    .navbar-toggler {
+      border: none;
+      pointer-events: auto;
+      outline: none;
+
+      .navbar-toggler-icon {
+        
+        width: rem(25px);
+        height: rem(25px);
+        background: none;
+        position: relative;
+
+        &:before, &:after {
+
+          content: '';
+          width: rem(25px);
+          height: rem(1px);
+          background: #000;
+          position: absolute;
+          transform-origin: center center;
+          transition: all 0.3s;
+        }
+
+        &:before {
+          top: 5px;
+          right: 0;
+        }
+
+        &:after {
+          bottom: 5px;
+          right: 0;
+        }
+      }
+
+      &:not(.collapsed) {
+
+        .navbar-toggler-icon {
+
+          &:before, &:after { 
+            background: #fff;
+          }
+
+          &:before {
+            top: 50%;
+            transform: rotate(-45deg);
+          }
+
+          &:after {
+            bottom: 50%;
+            transform: rotate(45deg);
+          }
+
+        }
+      }
+
+    }
+
+    .navbar-collapse {
+        
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 0;
+      height: 100%;
+      background: #000;
+      overflow: hidden;
+      transition: width 0.3s;
+      z-index: -1;
+      pointer-events: auto;
+
+      .navbar-nav {
+        padding-top: rem(135px);
+        padding-bottom: rem(100px);
+        position: relative;
+        width: 100vw;
+        height: 100%;
+        opacity: 0;
+
+        .container {
+
+          flex-direction: column;
+          align-items: flex-start;
+
+          a {
+
+            font-size: rem(38px);
+            position: relative;
+            color: #fff;
+            transition: all 0.3s;
+
+            &:not(:last-child) {
+              margin-bottom: rem(30px);
+            }
+
+          }
+        }
+      }
+
+      &.show {
+
+        width: 100%;
+
+        .navbar-nav {
+
+          opacity: 1;
+          transition: opacity 0.3s 0.3s;
+          .container {
+
+          }
+        }
+      }
+
+    }
+
+  }
+}
+  

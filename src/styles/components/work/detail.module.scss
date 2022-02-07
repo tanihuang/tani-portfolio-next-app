@@ -1,0 +1,40 @@
+@import '../../resources';
+
+.detail {
+
+  h2 {
+    font-size: rem(16px);
+  }
+
+  .image {
+    text-align: center;
+  }
+
+  p {
+    color: $secondary-color;
+  }
+
+  ul {
+    li {
+      p {
+        span {
+
+          color: $secondary-color;
+          font-size: rem(14px);
+
+          &.font-weight-bold {
+            font-weight: 500 !important;
+          }
+        }
+
+        a {
+
+          color: $secondary-color;
+          font-size: rem(14px);
+          display: inline-block;
+          word-break: break-word;
+        }
+      }
+    }
+  }
+}

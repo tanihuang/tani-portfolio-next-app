@@ -1,0 +1,36 @@
+@import '../../resources';
+
+.group {
+
+  :global(.row) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    :global(.col) {
+
+      &:first-child {
+        text-align: left;
+      }
+
+      &:last-child {
+        text-align: right;
+      }
+
+      a {
+        display: inline-flex;
+        color: $secondary-color;
+        font-weight: 300;
+        font-size: rem(14px);
+  
+        &.previous-button {
+          transform: rotate(-180deg);
+        }
+
+        &:global:not(.arrow-button) {
+          padding: 0 rem(5px);
+        }
+      }
+    }
+  }
+}

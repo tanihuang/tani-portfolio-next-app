@@ -1,0 +1,33 @@
+.footer {
+
+  padding: rem(15px) 0;
+  border-top: 1px solid $primary-border-color;
+
+  .container {
+    justify-content: space-between;
+  }
+
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  p {
+    font-size: rem(14px);
+    white-space: nowrap;
+    color: $secondary-color;
+  }
+
+  ul {
+    margin: 0 rem(-5px);
+    li {
+      display: inline-flex;
+      margin: 0 rem(5px);
+      a {
+        font-size: rem(14px);
+        color: $light-gray;
+        font-weight: 300;
+      }
+    }
+  }
+}
