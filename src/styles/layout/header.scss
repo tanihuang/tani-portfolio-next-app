@@ -108,10 +108,11 @@
 
           a {
 
-            font-size: rem(38px);
+            font-size: rem(68px);
             position: relative;
             color: #fff;
             transition: all 0.3s;
+            line-height: 1;
 
             &:not(:last-child) {
               margin-bottom: rem(30px);

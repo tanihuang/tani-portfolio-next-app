@@ -34,6 +34,22 @@ import silubrImage2 from '../../public/images/silubr_image2.jpg';
 import silubrImage3 from '../../public/images/silubr_image3.jpg';
 import silubrImage4 from '../../public/images/silubr_image4.jpg';
 
+import aeonCover from '../../public/images/aeon_cover.jpg';
+import aeonImage1 from '../../public/images/aeon_image1.jpg';
+
+import ontoloCover from '../../public/images/ontolo_cover.jpg';
+import ontoloImage1 from '../../public/images/ontolo_image1.jpg';
+
+import ricohCover from '../../public/images/ricoh_cover.jpg';
+import ricohImage1 from '../../public/images/ricoh_image1.jpg';
+
+import tbbCover from '../../public/images/tbb_cover.jpg';
+import tbbImage1 from '../../public/images/tbb_image1.jpg';
+
+import mystartrCover from '../../public/images/mystartr_cover.jpg';
+import mystartrImage1 from '../../public/images/mystartr_image1.jpg';
+
+
 export const CATEGORY = {
   design: 'Web Design',
   development: 'Web Development',
@@ -42,6 +58,72 @@ export const CATEGORY = {
 };
 
 export const WORKS = [
+  {
+    id: 13,
+    name: 'MyStartr Crowdfunding Platform',
+    slug: 'mystartr',
+    url: 'https://www.mystartr.com/',
+    categories: [
+      CATEGORY.development,
+    ],
+    description: '',
+    credit: [
+      {
+        name: 'Design',
+        description: 'MyStartr Crowdfunding Platform',
+      },
+      {
+        name: 'Development',
+        description: 'Mystartr Sdn Bhd, Tani Huang',
+      },
+      {
+        name: 'Technical',
+        description: 'CSS, HTML, JQuery, PHP',
+      },
+      {
+        name: 'Year',
+        description: '2022',
+      },
+    ],
+    coverImage: mystartrCover,
+    images: [
+      mystartrImage1,
+    ],
+    isFeatured: true,
+  },
+  {
+    id: 12,
+    name: 'Taiwan Business Bank',
+    slug: 'tbb',
+    url: 'https://ebank.tbb.com.tw/nb3/login',
+    categories: [
+      CATEGORY.development,
+    ],
+    description: '',
+    credit: [
+      {
+        name: 'Design',
+        description: 'Taiwan Business Bank',
+      },
+      {
+        name: 'Development',
+        description: 'Taiwan Business Bank, Tani Huang',
+      },
+      {
+        name: 'Technical',
+        description: 'CSS, HTML, JQuery, Spring Boot',
+      },
+      {
+        name: 'Year',
+        description: '2021',
+      },
+    ],
+    coverImage: tbbCover,
+    images: [
+      tbbImage1,
+    ],
+    isFeatured: true,
+  },
   {
     id: 1,
     name: 'Kaiport',
@@ -62,7 +144,7 @@ export const WORKS = [
         description: 'Groad Web Service, Tani Huang',
       },
       {
-        name: 'Skills',
+        name: 'Technical',
         description: 'Adobe Photoshop, CSS, HTML, JQuery',
       },
       {
@@ -74,7 +156,7 @@ export const WORKS = [
     images: [
       kaiportImage1, kaiportImage2, kaiportImage3, kaiportImage4,
     ],
-    isFeatured: true,
+    isFeatured: false,
   },
   {
     id: 2,
@@ -95,7 +177,7 @@ export const WORKS = [
         description: 'DigiSalad Limit, Tani Huang, Hanson Wu',
       },
       {
-        name: 'Skills',
+        name: 'Technical',
         description: 'Sketch, CSS, HTML, Vue, Nuxt',
       },
       {
@@ -129,7 +211,7 @@ export const WORKS = [
         description: 'Tainan Goverment, TOL Studio, Tani Huang',
       },
       {
-        name: 'Skills',
+        name: 'Technical',
         description: 'Sketch, CSS, HTML, JavaScript',
       },
       {
@@ -140,6 +222,204 @@ export const WORKS = [
     coverImage: tcgCover,
     images: [
       tcgImage1, tcgImage2, tcgImage3, tcgImage4,
+    ],
+    isFeatured: false,
+  },
+  {
+    id: 6,
+    name: 'Bravo Beer',
+    slug: 'bravo-beer',
+    url: 'http://www.bravobeer.com.tw/',
+    categories: [
+      CATEGORY.development,
+    ],
+    description: '',
+    credit: [
+      {
+        name: 'Design',
+        description: 'Groad Web Service',
+      },
+      {
+        name: 'Development',
+        description: 'Tani Huang',
+      },
+      {
+        name: 'Technical',
+        description: 'Adobe Photoshop, CSS, HTML, JQuery',
+      },
+      {
+        name: 'Year',
+        description: '2017',
+      },
+    ],
+    coverImage: bravobeerCover,
+    images: [
+      bravobeerImage1,
+    ],
+    isFeatured: false,
+  },
+  {
+    id: 7,
+    name: '大地假期旅遊網',
+    slug: 'actwg',
+    url: 'https://www.actwg.com.tw/',
+    categories: [
+      CATEGORY.development,
+    ],
+    description: '',
+    credit: [
+      {
+        name: 'Design',
+        description: 'Groad Web Service',
+      },
+      {
+        name: 'Development',
+        description: 'Tani Huang',
+      },
+      {
+        name: 'Technical',
+        description: 'Adobe Photoshop, CSS, HTML, JQuery',
+      },
+      {
+        name: 'Year',
+        description: '2016',
+      },
+    ],
+    coverImage: actwgCover,
+    images: [
+      actwgImage1,
+    ],
+    isFeatured: false,
+  },
+  {
+    id: 8,
+    name: 'Silubr 施鉑',
+    slug: 'silubr',
+    url: 'https://www.silubr.com.tw/',
+    categories: [
+      CATEGORY.development,
+    ],
+    description: '',
+    credit: [
+      {
+        name: 'Design',
+        description: 'Groad Web Service',
+      },
+      {
+        name: 'Development',
+        description: 'Tani Huang',
+      },
+      {
+        name: 'Technical',
+        description: 'Adobe Photoshop, CSS, HTML, JQuery',
+      },
+      {
+        name: 'Year',
+        description: '2016',
+      },
+    ],
+    coverImage: silubrCover,
+    images: [
+      silubrImage1, silubrImage2, silubrImage3, silubrImage4,
+    ],
+    isFeatured: false,
+  },
+  {
+    id: 9,
+    name: 'Aeon Credit Service M Bhd',
+    slug: 'aeon',
+    url: 'https://www.aeon.com.hk/tc/index.html',
+    categories: [
+      CATEGORY.development,
+    ],
+    description: '',
+    credit: [
+      {
+        name: 'Design',
+        description: 'DigiSalad Limit',
+      },
+      {
+        name: 'Development',
+        description: 'DigiSalad Limit, Tani Huang',
+      },
+      {
+        name: 'Technical',
+        description: 'CSS, HTML, JQuery',
+      },
+      {
+        name: 'Year',
+        description: '2018',
+      },
+    ],
+    coverImage: aeonCover,
+    images: [
+      aeonImage1,
+    ],
+    isFeatured: true,
+  },
+  {
+    id: 10,
+    name: 'ONTOLO 朗濤| 鷹君集團',
+    slug: 'ontolo',
+    url: 'https://www.ontolo.com.hk/landing',
+    categories: [
+      CATEGORY.development,
+    ],
+    description: '',
+    credit: [
+      {
+        name: 'Design',
+        description: 'DigiSalad Limit',
+      },
+      {
+        name: 'Development',
+        description: 'DigiSalad Limit, Tani Huang',
+      },
+      {
+        name: 'Technical',
+        description: 'CSS, HTML, VUE, NUXT',
+      },
+      {
+        name: 'Year',
+        description: '2019',
+      },
+    ],
+    coverImage: ontoloCover,
+    images: [
+      ontoloImage1,
+    ],
+    isFeatured: true,
+  },
+  {
+    id: 11,
+    name: '理光香港 Ricoh',
+    slug: 'ricoh',
+    url: 'https://www.ricoh.com.hk/',
+    categories: [
+      CATEGORY.development,
+    ],
+    description: '',
+    credit: [
+      {
+        name: 'Design',
+        description: 'DigiSalad Limit',
+      },
+      {
+        name: 'Development',
+        description: 'DigiSalad Limit, Tani Huang',
+      },
+      {
+        name: 'Technical',
+        description: 'CSS, HTML, JQuery',
+      },
+      {
+        name: 'Year',
+        description: '2018',
+      },
+    ],
+    coverImage: ricohCover,
+    images: [
+      ricohImage1,
     ],
     isFeatured: true,
   },
@@ -163,7 +443,7 @@ export const WORKS = [
         description: 'DigiSalad Limit, Tani Huang',
       },
       {
-        name: 'Skills',
+        name: 'Technical',
         description: 'CSS, HTML, JQuery',
       },
       {
@@ -197,7 +477,7 @@ export const WORKS = [
         description: 'B-Futures, Tani Huang',
       },
       {
-        name: 'Skills',
+        name: 'Technical',
         description: 'Adobe Photoshop, CSS, HTML, JQuery, Gulp, Java (Spring Boot), Thymeleaf',
       },
       {
@@ -210,105 +490,5 @@ export const WORKS = [
       facerecoganizeImage1,
     ],
     isFeatured: true,
-  },
-  {
-    id: 6,
-    name: 'Bravo Beer',
-    slug: 'bravo-beer',
-    url: 'http://www.bravobeer.com.tw/',
-    categories: [
-      CATEGORY.development,
-    ],
-    description: '',
-    credit: [
-      {
-        name: 'Design',
-        description: 'Groad Web Service',
-      },
-      {
-        name: 'Development',
-        description: 'Tani Huang',
-      },
-      {
-        name: 'Skills',
-        description: 'Adobe Photoshop, CSS, HTML, JQuery',
-      },
-      {
-        name: 'Year',
-        description: '2017',
-      },
-    ],
-    coverImage: bravobeerCover,
-    images: [
-      bravobeerImage1,
-    ],
-    isFeatured: false,
-  },
-  {
-    id: 7,
-    name: '大地假期旅遊網',
-    slug: 'actwg',
-    url: 'https://www.actwg.com.tw/',
-    categories: [
-      CATEGORY.development,
-    ],
-    description: '',
-    credit: [
-      {
-        name: 'Design',
-        description: 'Groad Web Service',
-      },
-      {
-        name: 'Development',
-        description: 'Tani Huang',
-      },
-      {
-        name: 'Skills',
-        description: 'Adobe Photoshop, CSS, HTML, JQuery',
-      },
-      {
-        name: 'Year',
-        description: '2016',
-      },
-    ],
-    coverImage: actwgCover,
-    images: [
-      actwgImage1,
-    ],
-    isFeatured: false,
-  },
-  {
-    id: 8,
-    name: 'Silubr 施鉑',
-    slug: 'silubr',
-    url: 'https://www.silubr.com.tw/',
-    // url: 'http://demo.grnet.com.tw/silubr/gia/',
-    categories: [
-      CATEGORY.development,
-    ],
-    description: '',
-    credit: [
-      {
-        name: 'Design',
-        description: 'Groad Web Service',
-      },
-      {
-        name: 'Development',
-        description: 'Tani Huang',
-      },
-      {
-        name: 'Skills',
-        description: 'Adobe Photoshop, CSS, HTML, JQuery',
-      },
-      {
-        name: 'Year',
-        description: '2016',
-      },
-    ],
-    coverImage: silubrCover,
-    images: [
-      silubrImage1, silubrImage2, silubrImage3, silubrImage4,
-    ],
-    isFeatured: false,
   },
 ];

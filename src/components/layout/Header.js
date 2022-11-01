@@ -47,6 +47,7 @@ const Header = () => {
                 <Nav.Link title="Work">Work</Nav.Link>
               </Link>
               <Nav.Link href={`mailto:${TEXT.email}`} title="Contact">Contact</Nav.Link>
+              <a title="Studio" href="https://theotherleaf.com/en" target="_blank">Studio</a>
             </Container>
           </Nav>
         </Navbar.Collapse>
