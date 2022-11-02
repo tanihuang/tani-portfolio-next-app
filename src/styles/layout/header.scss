@@ -113,9 +113,15 @@
             color: #fff;
             transition: all 0.3s;
             line-height: 1;
+            @include media-breakpoint-down(lg) {
+              font-size: rem(48px);
+            }
 
             &:not(:last-child) {
               margin-bottom: rem(30px);
+              @include media-breakpoint-down(lg) {
+                margin-bottom: rem(20px);
+              }
             }
 
           }

@@ -16,7 +16,7 @@ const Home = () => {
       <Container>
         <h2 className="mb-2">Tani Huang</h2>
         <h2 className="font-weight-light mb-4">Frontend Web Developer / UIUX Designer</h2>
-        <p className={classNames('mb-4')}>I am a Taiwan based frontend web developer / UIUX designer with {new Date().getFullYear() - 2016} years experience that is specializing in web development, web custom design and making animation.</p>
+        <p className={classNames('mb-4')}>Tani Huang is a Taiwanese based frontend web developer / UIUX designer with {new Date().getFullYear() - 2016} years experience that is specializing in web development, web custom design and making animation.</p>
         <WorkList works={featuredWorks} />
       </Container>
     </Layout>
