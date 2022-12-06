@@ -49,6 +49,15 @@ import tbbImage1 from '../../public/images/tbb_image1.jpg';
 import mystartrCover from '../../public/images/mystartr_cover.jpg';
 import mystartrImage1 from '../../public/images/mystartr_image1.jpg';
 
+import wynnCover from '../../public/images/wynn_cover.jpg';
+import wynnImage1 from '../../public/images/wynn_image1.jpg';
+
+import megabankCover from '../../public/images/megabank_cover.jpg';
+import megabankImage1 from '../../public/images/megabank_image1.jpg';
+
+import cookingpalCover from '../../public/images/cookingpal_cover.jpg';
+import cookingpalImage1 from '../../public/images/cookingpal_image1.jpg';
+
 
 export const CATEGORY = {
   design: 'Web Design',
@@ -59,7 +68,7 @@ export const CATEGORY = {
 
 export const WORKS = [
   {
-    id: 13,
+    id: 1,
     name: 'MyStartr Crowdfunding Platform',
     slug: 'mystartr',
     url: 'https://www.mystartr.com/',
@@ -92,7 +101,7 @@ export const WORKS = [
     isFeatured: true,
   },
   {
-    id: 12,
+    id: 2,
     name: 'Taiwan Business Bank',
     slug: 'tbb',
     url: 'https://ebank.tbb.com.tw/nb3/login',
@@ -125,7 +134,106 @@ export const WORKS = [
     isFeatured: true,
   },
   {
-    id: 1,
+    id: 3,
+    name: '永利澳門－酒店訂房系統',
+    slug: 'wynn',
+    url: '',
+    categories: [
+      CATEGORY.development,
+    ],
+    description: '',
+    credit: [
+      {
+        name: 'Design',
+        description: 'DigiSalad Limit',
+      },
+      {
+        name: 'Development',
+        description: 'DigiSalad Limit, Tani Huang, Hanson Wu',
+      },
+      {
+        name: 'Technical',
+        description: 'CSS, HTML, Vue, Nuxt',
+      },
+      {
+        name: 'Year',
+        description: '2019',
+      },
+    ],
+    coverImage: wynnCover,
+    images: [
+      wynnImage1,
+    ],
+    isFeatured: true,
+  },
+  {
+    id: 4,
+    name: 'CookingPal',
+    slug: 'cookingpal',
+    url: 'https://www.cookingpal.com/',
+    categories: [
+      CATEGORY.development,
+    ],
+    description: '',
+    credit: [
+      {
+        name: 'Design',
+        description: 'DigiSalad Limit',
+      },
+      {
+        name: 'Development',
+        description: 'DigiSalad Limit, Tani Huang',
+      },
+      {
+        name: 'Technical',
+        description: 'CSS, HTML, Vue, Nuxt',
+      },
+      {
+        name: 'Year',
+        description: '2019',
+      },
+    ],
+    coverImage: cookingpalCover,
+    images: [
+      cookingpalImage1,
+    ],
+    isFeatured: false,
+  },
+  {
+    id: 5,
+    name: '兆豐銀行－「房貸E把兆」房屋估價網站',
+    slug: 'megabank',
+    url: 'https://estimation.megabank.com.tw/',
+    categories: [
+      CATEGORY.development,
+    ],
+    description: '',
+    credit: [
+      {
+        name: 'Design',
+        description: 'DigiSalad Limit',
+      },
+      {
+        name: 'Development',
+        description: 'DigiSalad Limit',
+      },
+      {
+        name: 'Technical',
+        description: 'CSS, HTML, JQuery',
+      },
+      {
+        name: 'Year',
+        description: '2018',
+      },
+    ],
+    coverImage: megabankCover,
+    images: [
+      megabankImage1,
+    ],
+    isFeatured: false,
+  },
+  {
+    id: 6,
     name: 'Kaiport',
     slug: 'kaiport',
     url: 'http://demo.grnet.com.tw/kaiport/demo/',
@@ -159,7 +267,7 @@ export const WORKS = [
     isFeatured: false,
   },
   {
-    id: 2,
+    id: 7,
     name: 'ChampionREIT',
     slug: 'championreit',
     url: 'https://www.championreit.com/',
@@ -192,7 +300,7 @@ export const WORKS = [
     isFeatured: true,
   },
   {
-    id: 3,
+    id: 8,
     name: 'Tainan Member Centre',
     slug: 'tainan-member-centre',
     url: 'https://cititb.tainan.gov.tw/',
@@ -226,7 +334,7 @@ export const WORKS = [
     isFeatured: false,
   },
   {
-    id: 6,
+    id: 9,
     name: 'Bravo Beer',
     slug: 'bravo-beer',
     url: 'http://www.bravobeer.com.tw/',
@@ -259,7 +367,7 @@ export const WORKS = [
     isFeatured: false,
   },
   {
-    id: 7,
+    id: 10,
     name: '大地假期旅遊網',
     slug: 'actwg',
     url: 'https://www.actwg.com.tw/',
@@ -292,7 +400,7 @@ export const WORKS = [
     isFeatured: false,
   },
   {
-    id: 8,
+    id: 11,
     name: 'Silubr 施鉑',
     slug: 'silubr',
     url: 'https://www.silubr.com.tw/',
@@ -325,7 +433,7 @@ export const WORKS = [
     isFeatured: false,
   },
   {
-    id: 9,
+    id: 12,
     name: 'Aeon Credit Service M Bhd',
     slug: 'aeon',
     url: 'https://www.aeon.com.hk/tc/index.html',
@@ -358,7 +466,7 @@ export const WORKS = [
     isFeatured: true,
   },
   {
-    id: 10,
+    id: 13,
     name: 'ONTOLO 朗濤| 鷹君集團',
     slug: 'ontolo',
     url: 'https://www.ontolo.com.hk/landing',
@@ -391,7 +499,7 @@ export const WORKS = [
     isFeatured: true,
   },
   {
-    id: 11,
+    id: 14,
     name: '理光香港 Ricoh',
     slug: 'ricoh',
     url: 'https://www.ricoh.com.hk/',
@@ -424,7 +532,7 @@ export const WORKS = [
     isFeatured: true,
   },
   {
-    id: 4,
+    id: 15,
     name: 'Panasonic Animation',
     slug: 'panasonic-animation',
     url: 'https://www.plshk.panasonic.hk/sites/all/modules/custom/web_animation/html/build/index.html',
@@ -458,7 +566,7 @@ export const WORKS = [
     isFeatured: true,
   },
   {
-    id: 5,
+    id: 16,
     name: 'Face recognize project',
     slug: 'face-recognize-project',
     url: 'https://www.b-futures.net/face_ai_camera_multi.html',
