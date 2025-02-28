@@ -4,9 +4,7 @@ import Col from 'react-bootstrap/Col';
 import WorkItem from './Item';
 import styles from '../../styles/components/work/list.module.scss';
 
-const WorkList = ({
-  works,
-}) => (
+const WorkList = ({ works }) => (
   <div className={classNames(
     styles.list,
   )}

@@ -20,7 +20,7 @@ const Header = () => {
     >
       <Navbar expand="true">
         <Container>
-          <Link href="/" passHref>
+          <Link href="/" passHref legacyBehavior>
             <Navbar.Brand
               className={classNames(
                 {
@@ -40,14 +40,15 @@ const Header = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Container>
-              <Link href="/about" passHref>
+              <Link href="/about" passHref legacyBehavior>
                 <Nav.Link title="About">About</Nav.Link>
               </Link>
-              <Link href="/work" passHref>
+              <Link href="/work" passHref legacyBehavior>
                 <Nav.Link title="Work">Work</Nav.Link>
               </Link>
               <Nav.Link href={`mailto:${TEXT.email}`} title="Contact">Contact</Nav.Link>
-              <a title="Studio" href="https://theotherleaf.com/en" target="_blank">Studio</a>
+              {/* eslint-disable-next-line */}
+              <a title="Studio" href="https://theotherleaf.github.io/en" target="_blank">Studio</a>
             </Container>
           </Nav>
         </Navbar.Collapse>

@@ -32,7 +32,7 @@ const Footer = () => {
           <Col>
             <ul className="mt-auto ml-auto">
               <li>
-                <Link href="/login">
+                <Link href="/login" legacyBehavior>
                   <a title="Login">Login</a>
                 </Link>
               </li>

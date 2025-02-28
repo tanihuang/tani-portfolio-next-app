@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import classNames from 'classnames';
 import styles from '../../styles/components/work/item.module.scss';
-import redirect from '../../../public/images/redirect.png';
+
+const redirect = '/images/redirect.png';
 
 const WorkItem = ({
   name,
@@ -13,7 +14,7 @@ const WorkItem = ({
     ? (
       <div className={classNames('item', styles.item)}>
         <figure>
-          <Link href={`/work/${slug}`}>
+          <Link href={`/work/${slug}`} legacyBehavior>
             <a
               title={name}
               className={classNames(
@@ -28,7 +29,7 @@ const WorkItem = ({
             <img src={redirect} className="img-fluid" alt={name} />
           </a>
         </figure>
-        <Link href={`/work/${slug}`}>
+        <Link href={`/work/${slug}`} legacyBehavior>
           <a title={name}>
             <h3 className={styles.name}>
               {name}

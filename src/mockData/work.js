@@ -1,62 +1,62 @@
-import kaiportCover from '../../public/images/kaiport_cover.jpg';
-import kaiportImage1 from '../../public/images/kaiport_image1.jpg';
-import kaiportImage2 from '../../public/images/kaiport_image2.jpg';
-import kaiportImage3 from '../../public/images/kaiport_image3.jpg';
-import kaiportImage4 from '../../public/images/kaiport_image4.jpg';
+const kaiportCover = '/images/kaiport_cover.jpg';
+const kaiportImage1 = '/images/kaiport_image1.jpg';
+const kaiportImage2 = '/images/kaiport_image2.jpg';
+const kaiportImage3 = '/images/kaiport_image3.jpg';
+const kaiportImage4 = '/images/kaiport_image4.jpg';
 
-import championreitCover from '../../public/images/championreit_cover.jpg';
-import championreitImage1 from '../../public/images/championreit_image1.jpg';
+const championreitCover = '/images/championreit_cover.jpg';
+const championreitImage1 = '/images/championreit_image1.jpg';
 
-import tcgCover from '../../public/images/tcg_cover.jpg';
-import tcgImage1 from '../../public/images/tcg_image1.jpg';
-import tcgImage2 from '../../public/images/tcg_image2.jpg';
-import tcgImage3 from '../../public/images/tcg_image3.jpg';
-import tcgImage4 from '../../public/images/tcg_image4.jpg';
+const tcgCover = '/images/tcg_cover.jpg';
+const tcgImage1 = '/images/tcg_image1.jpg';
+const tcgImage2 = '/images/tcg_image2.jpg';
+const tcgImage3 = '/images/tcg_image3.jpg';
+const tcgImage4 = '/images/tcg_image4.jpg';
 
-import panasonicCover from '../../public/images/panasonic_cover.jpg';
-import panasonicImage1 from '../../public/images/panasonic_image1.jpg';
-import panasonicImage2 from '../../public/images/panasonic_image2.jpg';
-import panasonicImage3 from '../../public/images/panasonic_image3.jpg';
-import panasonicImage4 from '../../public/images/panasonic_image4.jpg';
+const panasonicCover = '/images/panasonic_cover.jpg';
+const panasonicImage1 = '/images/panasonic_image1.jpg';
+const panasonicImage2 = '/images/panasonic_image2.jpg';
+const panasonicImage3 = '/images/panasonic_image3.jpg';
+const panasonicImage4 = '/images/panasonic_image4.jpg';
 
-import facerecoganizeCover from '../../public/images/facerecoganize_cover.jpg';
-import facerecoganizeImage1 from '../../public/images/facerecoganize_image1.jpg';
+const facerecoganizeCover = '/images/facerecoganize_cover.jpg';
+const facerecoganizeImage1 = '/images/facerecoganize_image1.jpg';
 
-import bravobeerCover from '../../public/images/bravobeer_cover.jpg';
-import bravobeerImage1 from '../../public/images/bravobeer_image1.jpg';
+const bravobeerCover = '/images/bravobeer_cover.jpg';
+const bravobeerImage1 = '/images/bravobeer_image1.jpg';
 
-import actwgCover from '../../public/images/actwg_cover.jpg';
-import actwgImage1 from '../../public/images/actwg_image1.jpg';
+const actwgCover = '/images/actwg_cover.jpg';
+const actwgImage1 = '/images/actwg_image1.jpg';
 
-import silubrCover from '../../public/images/silubr_cover.jpg';
-import silubrImage1 from '../../public/images/silubr_image1.jpg';
-import silubrImage2 from '../../public/images/silubr_image2.jpg';
-import silubrImage3 from '../../public/images/silubr_image3.jpg';
-import silubrImage4 from '../../public/images/silubr_image4.jpg';
+const silubrCover = '/images/silubr_cover.jpg';
+const silubrImage1 = '/images/silubr_image1.jpg';
+const silubrImage2 = '/images/silubr_image2.jpg';
+const silubrImage3 = '/images/silubr_image3.jpg';
+const silubrImage4 = '/images/silubr_image4.jpg';
 
-import aeonCover from '../../public/images/aeon_cover.jpg';
-import aeonImage1 from '../../public/images/aeon_image1.jpg';
+const aeonCover = '/images/aeon_cover.jpg';
+const aeonImage1 = '/images/aeon_image1.jpg';
 
-import ontoloCover from '../../public/images/ontolo_cover.jpg';
-import ontoloImage1 from '../../public/images/ontolo_image1.jpg';
+const ontoloCover = '/images/ontolo_cover.jpg';
+const ontoloImage1 = '/images/ontolo_image1.jpg';
 
-import ricohCover from '../../public/images/ricoh_cover.jpg';
-import ricohImage1 from '../../public/images/ricoh_image1.jpg';
+const ricohCover = '/images/ricoh_cover.jpg';
+const ricohImage1 = '/images/ricoh_image1.jpg';
 
-import tbbCover from '../../public/images/tbb_cover.jpg';
-import tbbImage1 from '../../public/images/tbb_image1.jpg';
+const tbbCover = '/images/tbb_cover.jpg';
+const tbbImage1 = '/images/tbb_image1.jpg';
 
-import mystartrCover from '../../public/images/mystartr_cover.jpg';
-import mystartrImage1 from '../../public/images/mystartr_image1.jpg';
+const mystartrCover = '/images/mystartr_cover.jpg';
+const mystartrImage1 = '/images/mystartr_image1.jpg';
 
-import wynnCover from '../../public/images/wynn_cover.jpg';
-import wynnImage1 from '../../public/images/wynn_image1.jpg';
+const wynnCover = '/images/wynn_cover.jpg';
+const wynnImage1 = '/images/wynn_image1.jpg';
 
-import megabankCover from '../../public/images/megabank_cover.jpg';
-import megabankImage1 from '../../public/images/megabank_image1.jpg';
+const megabankCover = '/images/megabank_cover.jpg';
+const megabankImage1 = '/images/megabank_image1.jpg';
 
-import cookingpalCover from '../../public/images/cookingpal_cover.jpg';
-import cookingpalImage1 from '../../public/images/cookingpal_image1.jpg';
+const cookingpalCover = '/images/cookingpal_cover.jpg';
+const cookingpalImage1 = '/images/cookingpal_image1.jpg';
 
 
 export const CATEGORY = {

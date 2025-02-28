@@ -17,11 +17,11 @@ const ArrowGroup = ({
 
     return (
       <>
-        <Link href={previousSlug} passHref>
+        <Link href={previousSlug} passHref legacyBehavior>
           <ArrowItem className={styles['previous-button']} title={BUTTON.previous} />
         </Link>
-        <Link href={previousSlug}>
-          <a title={BUTTON.previous}>{BUTTON.previous}</a>
+        <Link href={previousSlug} legacyBehavior>
+          <div title={BUTTON.previous}>{BUTTON.previous}</div>
         </Link>
       </>
     );
@@ -34,10 +34,10 @@ const ArrowGroup = ({
 
     return (
       <>
-        <Link href={nextSlug}>
-          <a title={BUTTON.next}>{BUTTON.next}</a>
+        <Link href={nextSlug} legacyBehavior>
+          <div title={BUTTON.next}>{BUTTON.next}</div>
         </Link>
-        <Link href={nextSlug} passHref>
+        <Link href={nextSlug} passHref legacyBehavior>
           <ArrowItem className={styles['next-button']} title={BUTTON.next} />
         </Link>
       </>

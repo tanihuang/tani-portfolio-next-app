@@ -1,7 +1,8 @@
 import { forwardRef } from 'react';
 import classNames from 'classnames';
 import styles from '../../styles/components/arrow/item.module.scss';
-import arrowImage from '../../../public/images/icon_right_arrow.svg';
+
+const arrowImage = '/images/icon_right_arrow.svg';
 
 const ArrowItem = forwardRef(({
   className,
