@@ -13,7 +13,7 @@ const WorkItem = ({
   coverImage,
 }) => {
   const ImageComponent = (
-    <Image src={coverImage} alt={name} layout="responsive" width={2000} height={1400} />
+    <Image src={coverImage} alt={name} width={2000} height={1400} style={{ width: '100%', height: 'auto' }} />
   );
 
   return (

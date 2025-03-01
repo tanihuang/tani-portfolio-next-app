@@ -1,11 +1,12 @@
-@import 'vendors/bootstrap/main';
-@import 'abstracts/functions';
-@import 'abstracts/variables';
-@import 'abstracts/mixins';
-@import 'base/body';
-@import 'base/reset';
-@import 'base/typography';
-@import 'base/animations';
-@import 'layout/grid';
-@import 'layout/header';
-@import 'layout/footer';
+@import './vendors/bootstrap/main';
+@import './abstracts/functions';
+@import './abstracts/variables';
+@import './abstracts/mixins';
+@import './base/body';
+@import './base/reset';
+@import './base/typography';
+@import './base/animations';
+@import './layout/grid';
+@import './layout/header';
+@import './layout/footer';
+
