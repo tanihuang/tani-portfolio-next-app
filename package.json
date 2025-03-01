@@ -7,7 +7,9 @@
     "build": "next build",
     "build:static": "next build && next export",
     "start": "next start",
-    "lint:js": "eslint \"src/**/*.js\""
+    "lint:js": "eslint \"src/**/*.js\"",
+    "predeploy": "npm run build:static",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
@@ -41,6 +43,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.21.5",
     "file-loader": "^6.2.0",
+    "gh-pages": "^6.3.0",
     "url-loader": "^4.1.1"
   }
 }

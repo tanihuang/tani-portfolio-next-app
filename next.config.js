@@ -1,6 +1,10 @@
-const withOptimizedImages = require('next-optimized-images');
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  assetPrefix: '/tani-portfolio-next-app/',
+  images: {
+    unoptimized: true,
+  },
+};
 
-module.exports = withOptimizedImages({
-  /* config for next-optimized-images */
-  // your config for other plugins or the general next.js here...
-});
+module.exports = nextConfig;
