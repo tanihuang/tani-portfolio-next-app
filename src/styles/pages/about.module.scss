@@ -13,6 +13,7 @@
       font-size: 18px;
       color: $secondary-color;
       font-weight: 500;
+      line-height: 1.6;
     }
     ul {
       margin: 10px 0 0 !important;
@@ -31,6 +32,19 @@
         }
       }
 
+    }
+  }
+  .list {
+    li {
+      position: relative;
+      padding-left: 12px;
+      &:before {
+        content: '•';
+        position: absolute;
+        left: 0;
+        font-size: 10px;
+        color: #333;
+      }
     }
   }
 }

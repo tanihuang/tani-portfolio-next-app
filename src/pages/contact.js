@@ -1,15 +1,6 @@
 import { useState, useEffect } from "react";
 import Layout from "../components/layout/Layout";
 
-const people = [
-  {
-    name: 'Tani'
-  },
-  {
-    name: 'Bitch'
-  },
-]
-
 const Contact = () => {
   const [resultSum, setResultSum] = useState(0);
   const [resultMinus, setResultMinus] = useState(0);
@@ -35,7 +26,7 @@ const Contact = () => {
       })
       .catch(e => {
         console.log(e);
-      })
+      }),
   };
 
   useEffect(() => {

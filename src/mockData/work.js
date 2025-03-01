@@ -59,7 +59,9 @@ const cookingpalCover = '/images/cookingpal_cover.jpg';
 const cookingpalImage1 = '/images/cookingpal_image1.jpg';
 
 const kingwinCover = '/images/del/web_kingwin.jpg';
-const kingwinImage1 = '/images/web_kingwin1.jpg';
+const kingwinImage1 = '/images/del/web_kingwin1.jpg';
+const kingwinImage2 = '/images/del/web_kingwin2.jpg';
+
 const sunmingCover = '/images/del/web_sunming.jpg';
 const wcollectionsCover = '/images/del/web_wcollections.jpg';
 const finessewinesCover = '/images/del/web_finessewines.jpg';
@@ -81,7 +83,7 @@ const sketchCover = '/images/del/art_sketch.jpg';
 const sketchImage1 = '/images/del/art_sketch1.jpg';
 
 export const CATEGORY = {
-  Design: 'Web-Design: ',
+  design: 'Web-Design',
   development: 'Web-Development',
   animation: 'Animation',
   other: 'Other',
@@ -219,7 +221,7 @@ export const WORKS = [
     slug: 'kaiport',
     url: 'https://www.kaiport.com',
     categories: [
-      CATEGORY.Design,
+      CATEGORY.design,
       CATEGORY.development,
     ],
     description: '',
@@ -270,7 +272,7 @@ export const WORKS = [
     slug: 'tainan-member-center',
     url: 'https://citi.tainan.gov.tw/',
     categories: [
-      CATEGORY.Design,
+      CATEGORY.design,
       CATEGORY.development,
     ],
     description: '',
@@ -472,7 +474,7 @@ export const WORKS = [
     slug: 'face-recognize-project',
     url: 'https://www.b-futures.net/face_ai_camera_multi.html',
     categories: [
-      CATEGORY.Design,
+      CATEGORY.design,
       CATEGORY.development,
     ],
     description: '',
@@ -505,6 +507,7 @@ export const WORKS = [
     coverImage: kingwinCover,
     images: [
       kingwinImage1,
+      kingwinImage2,
     ],
   },
   {
@@ -641,8 +644,8 @@ export const WORKS = [
   },
   {
     id: 28,
-    name: 'Painting',
-    slug: 'painting',
+    name: 'Pastel',
+    slug: 'Pastel',
     url: '',
     categories: [
       CATEGORY.other,

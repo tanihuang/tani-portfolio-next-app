@@ -58,7 +58,25 @@ const About = () => {
         </Collapse>
 
         <h2 className="mt-5 mb-3">Skills & Technologies</h2>
-        <p>CSS、HTML、JavaScript、React.js、Next.js、Vue.js、Nuxt.js、React Native</p>
+        <div className={styles['grid-item']}>
+          <ul style={{
+            padding: 0,
+            margin: 0,
+            listStyle: 'none',
+            display: 'flex',
+            gap: '10px',
+          }}
+          >
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Next.js</li>
+            <li>Vue.js</li>
+            <li>Nuxt.js</li>
+            <li>React Native</li>
+          </ul>
+        </div>
       </Container>
     </Layout>
   );

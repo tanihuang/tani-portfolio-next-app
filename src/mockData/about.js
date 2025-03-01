@@ -4,7 +4,7 @@ export const ABOUT = [
     year: '2023 - Present',
     title: 'Latest Role in SaaS & Service Industry',
     company: 'Seektop Service',
-    description: 'Currently, working as a frontend developer, focusing on:',
+    description: '',
     responsibilities: [
       'Developing modern web applications for SaaS platforms.',
       'Enhancing performance, accessibility, and user interactions.',
