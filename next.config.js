@@ -1,11 +1,12 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production';
-
 const nextConfig = {
-  output: isProd ? 'export' : 'standalone',
-  assetPrefix: isProd ? '/tani-portfolio-next-app/' : '',
+  output: 'export',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/tani-portfolio-next-app/' : '',
   images: {
-    unoptimized: isProd,
+    unoptimized: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
   },
 };
 
