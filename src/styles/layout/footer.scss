@@ -10,6 +10,12 @@
   .col {
     display: flex;
     flex-direction: column;
+    &:last-child {
+      justify-content: flex-end;
+      ul {
+        text-align: right;
+      }
+    }
   }
   
   p {

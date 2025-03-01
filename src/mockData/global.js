@@ -1,5 +1,5 @@
 export const BUTTON = {
-  previous: 'Previous',
+  previous: 'Prev',
   next: 'Next',
 };
 

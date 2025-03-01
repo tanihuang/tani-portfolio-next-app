@@ -16,9 +16,9 @@ const WorkNav = ({
     )}
   >
     <Nav.Item>
-      <Nav.Link eventKey="All">
+      {/* <Nav.Link eventKey="All">
         All
-      </Nav.Link>
+      </Nav.Link> */}
     </Nav.Item>
     <Nav.Item>
       <Nav.Link eventKey={CATEGORY.design}>

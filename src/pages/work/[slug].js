@@ -32,15 +32,19 @@ const WorkDetail = () => {
         </h2>
         {
           detail.images?.map((item, index) => (
-            <div
+            <a
               key={index}
               className={classNames(
                 styles.image,
                 'mb-3',
               )}
+              href={detail.url}
+              target="_blank"
+              rel="noreferrer"
+              title={detail.name}
             >
               <img src={item} className="img-fluid" alt="" />
-            </div>
+            </a>
           ))
         }
 
@@ -58,25 +62,29 @@ const WorkDetail = () => {
                   >
                     {item.name}
                   </span>
-                  <span>{item.description}</span>
+                  {/* eslint-disable react/no-danger */}
+                  <span dangerouslySetInnerHTML={{ __html: item.description }} />
+                  {/* eslint-disable react/no-danger */}
                 </p>
               </li>
             ))
           }
-          <li>
-            <p>
-              <span className={classNames(
-                'font-weight-bold',
-                'mr-2',
-              )}
-              >
-                Website
-              </span>
-              <a href={detail.url} target="_blank" rel="noreferrer" title={detail.name}>
-                {detail.url}
-              </a>
-            </p>
-          </li>
+          {detail.url && (
+            <li>
+              <p>
+                <span className={classNames(
+                  'font-weight-bold',
+                  'mr-2',
+                )}
+                >
+                  Website
+                </span>
+                <a href={detail.url} target="_blank" rel="noreferrer" title={detail.name}>
+                  {detail.url}
+                </a>
+              </p>
+            </li>
+          )}
         </ul>
 
         <ArrowGroup

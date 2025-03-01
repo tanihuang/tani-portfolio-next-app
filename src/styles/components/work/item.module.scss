@@ -30,7 +30,6 @@
     }
 
     .button {
-
       position: absolute;
       right: rem(15px);
       bottom: rem(15px);
@@ -39,6 +38,8 @@
       width: rem(34px);
       height: rem(34px);
       transition: all 0.3s;
+      display: flex;
+      justify-content: center;
       opacity: 0;
     }
 

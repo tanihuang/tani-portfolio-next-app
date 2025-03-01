@@ -3,7 +3,7 @@
 .detail {
 
   h2 {
-    font-size: rem(16px);
+    font-size: rem(22px);
   }
 
   .image {
@@ -16,23 +16,29 @@
 
   ul {
     li {
+      &:not(:first-child) {
+        margin-top: 10px;
+      }
       p {
+        display: flex;
         span {
-
           color: $secondary-color;
           font-size: rem(14px);
-
           &.font-weight-bold {
             font-weight: 500 !important;
           }
+          &:first-child {
+            min-width: 85px;
+          }
         }
-
         a {
-
           color: $secondary-color;
           font-size: rem(14px);
           display: inline-block;
           word-break: break-word;
+          &:hover {
+            text-decoration: underline !important;
+          }
         }
       }
     }

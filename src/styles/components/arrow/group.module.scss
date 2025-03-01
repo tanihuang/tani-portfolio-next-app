@@ -8,6 +8,8 @@
     align-items: center;
 
     :global(.col) {
+      display: flex;
+      align-items: center;
 
       &:first-child {
         text-align: left;
@@ -15,16 +17,21 @@
 
       &:last-child {
         text-align: right;
+        justify-content: flex-end;
       }
-
       a {
         display: inline-flex;
         color: $secondary-color;
         font-weight: 300;
         font-size: rem(14px);
-  
-        &.previous-button {
+        
+        &.previous-arrow {
           transform: rotate(-180deg);
+          margin-right: 5px;
+        }
+
+        &.next-arrow {
+          margin-left: 5px;
         }
 
         &:global:not(.arrow-button) {

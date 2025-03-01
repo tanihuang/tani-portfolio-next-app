@@ -58,10 +58,31 @@ const megabankImage1 = '/images/megabank_image1.jpg';
 const cookingpalCover = '/images/cookingpal_cover.jpg';
 const cookingpalImage1 = '/images/cookingpal_image1.jpg';
 
+const kingwinCover = '/images/del/web_kingwin.jpg';
+const kingwinImage1 = '/images/web_kingwin1.jpg';
+const sunmingCover = '/images/del/web_sunming.jpg';
+const wcollectionsCover = '/images/del/web_wcollections.jpg';
+const finessewinesCover = '/images/del/web_finessewines.jpg';
+const edrhuangCover = '/images/del/web_edrhuang.jpg';
+const itsoteaCover = '/images/del/web_itsotea.jpg';
+const trsglobatasCover = '/images/del/web_trsglobetas.jpg';
+const artInfluenceCover = '/images/del/web_art-influence.jpg';
+const mondayTestCover = '/images/del/web_mondaytest.jpg';
+const giTranslationCover = '/images/del/web_gitranslation.jpg';
+
+const paintingCover = '/images/del/art_painting.jpg';
+const paintingImage1 = '/images/del/art_painting1.jpg';
+const paintingImage2 = '/images/del/art_painting2.jpg';
+const paintingImage3 = '/images/del/art_painting3.jpg';
+const paintingImage4 = '/images/del/art_painting4.jpg';
+const paintingImage5 = '/images/del/art_painting5.jpg';
+
+const sketchCover = '/images/del/art_sketch.jpg';
+const sketchImage1 = '/images/del/art_sketch1.jpg';
 
 export const CATEGORY = {
-  design: 'Web Design',
-  development: 'Web Development',
+  Design: 'Web-Design: ',
+  development: 'Web-Development',
   animation: 'Animation',
   other: 'Other',
 };
@@ -71,28 +92,20 @@ export const WORKS = [
     id: 1,
     name: 'MyStartr Crowdfunding Platform',
     slug: 'mystartr',
-    url: 'https://www.mystartr.com/',
+    url: 'https://www.mystartr.com',
     categories: [
       CATEGORY.development,
     ],
     description: '',
     credit: [
       {
-        name: 'Design',
-        description: 'MyStartr Crowdfunding Platform',
+        name: 'Overview:',
+        description: 'MyStartr is a crowdfunding platform designed to help entrepreneurs launch and fund creative projects by reaching a broad audience, managing donations, and offering tiered rewards to backers. Operating as a fully licensed Equity Crowdfunding (ECF) platform under the Securities Commission Malaysia, MyStartr provides a regulated and secure environment for both entrepreneurs and investors, empowering individuals with the tools they need to turn their ideas into reality.',
       },
-      {
-        name: 'Development',
-        description: 'Mystartr Sdn Bhd, Tani Huang',
-      },
-      {
-        name: 'Technical',
-        description: 'CSS, HTML, JQuery, PHP',
-      },
-      {
-        name: 'Year',
-        description: '2022',
-      },
+      // {
+      //   name: 'Year:',
+      //   description: '2022',
+      // },
     ],
     coverImage: mystartrCover,
     images: [
@@ -111,21 +124,13 @@ export const WORKS = [
     description: '',
     credit: [
       {
-        name: 'Design',
-        description: 'Taiwan Business Bank',
+        name: 'Overview:',
+        description: 'Taiwan Business Bank (TBB) is a financial institution focused on providing banking services to small and medium-sized enterprises (SMEs) and individual customers. Offering a wide range of financial products, including loans, deposits, wealth management, and digital banking solutions, TBB operates a web-based financial platform designed to cater to both individual and corporate banking needs.',
       },
-      {
-        name: 'Development',
-        description: 'Taiwan Business Bank, Tani Huang',
-      },
-      {
-        name: 'Technical',
-        description: 'CSS, HTML, JQuery, Spring Boot',
-      },
-      {
-        name: 'Year',
-        description: '2021',
-      },
+      // {
+      //   name: 'Year:',
+      //   description: '2021',
+      // },
     ],
     coverImage: tbbCover,
     images: [
@@ -144,21 +149,13 @@ export const WORKS = [
     description: '',
     credit: [
       {
-        name: 'Design',
-        description: 'DigiSalad Limit',
+        name: 'Overview:',
+        description: 'Wynn Macau is a luxury resort and casino in Macau, renowned for its world-class hospitality, entertainment, and gaming experiences. Its web-based hotel booking system provides guests with a seamless and efficient way to reserve rooms, manage bookings, and access exclusive offers. Built with modern web technologies, the platform ensures a responsive and user-friendly experience across desktops, tablets, and mobile devices.',
       },
-      {
-        name: 'Development',
-        description: 'DigiSalad Limit, Tani Huang, Hanson Wu',
-      },
-      {
-        name: 'Technical',
-        description: 'CSS, HTML, Vue, Nuxt',
-      },
-      {
-        name: 'Year',
-        description: '2019',
-      },
+      // {
+      //   name: 'Year:',
+      //   description: '2019',
+      // },
     ],
     coverImage: wynnCover,
     images: [
@@ -177,21 +174,13 @@ export const WORKS = [
     description: '',
     credit: [
       {
-        name: 'Design',
-        description: 'DigiSalad Limit',
+        name: 'Overview:',
+        description: 'CookingPal is a smart kitchen platform designed to enhance the cooking experience by integrating intelligent appliances, guided recipes, and real-time assistance. It helps users prepare meals efficiently with step-by-step instructions, automated cooking settings, and remote control features via a companion app. ',
       },
-      {
-        name: 'Development',
-        description: 'DigiSalad Limit, Tani Huang',
-      },
-      {
-        name: 'Technical',
-        description: 'CSS, HTML, Vue, Nuxt',
-      },
-      {
-        name: 'Year',
-        description: '2019',
-      },
+      // {
+      //   name: 'Year:',
+      //   description: '2019',
+      // },
     ],
     coverImage: cookingpalCover,
     images: [
@@ -210,21 +199,13 @@ export const WORKS = [
     description: '',
     credit: [
       {
-        name: 'Design',
-        description: 'DigiSalad Limit',
+        name: 'Overview:',
+        description: 'Mega Bank – "E-House Loan Valuation" is an online property valuation platform designed to help users quickly obtain real estate appraisal information, enhancing the convenience of home loan applications. The platform provides instant valuation services, allowing users to understand market property values before applying for a loan. By leveraging data analytics, it offers more accurate loan amount assessments, improving decision-making efficiency for homebuyers and loan applicants.',
       },
-      {
-        name: 'Development',
-        description: 'DigiSalad Limit',
-      },
-      {
-        name: 'Technical',
-        description: 'CSS, HTML, JQuery',
-      },
-      {
-        name: 'Year',
-        description: '2018',
-      },
+      // {
+      //   name: 'Year:',
+      //   description: '2018',
+      // },
     ],
     coverImage: megabankCover,
     images: [
@@ -236,29 +217,21 @@ export const WORKS = [
     id: 6,
     name: 'Kaiport',
     slug: 'kaiport',
-    url: 'http://demo.grnet.com.tw/kaiport/demo/',
+    url: 'https://www.kaiport.com',
     categories: [
-      CATEGORY.design,
+      CATEGORY.Design,
       CATEGORY.development,
     ],
-    description: 'Kaiport is a Taiwan manufacture company since 1984. For over 30 years, they have been making optical frames and innovative product requests from customers. Develop over 500 styles every season. The website is focused on the product page, people can choose patterns and colors. The website also provides the member, to create and save the product.',
+    description: '',
     credit: [
       {
-        name: 'Design',
-        description: 'Groad Web Service, Tani Huang',
+        name: 'Overview:',
+        description: 'Kaiport is a Taiwan-based manufacturing company specializing in optical frames and customized product development since 1984. The Kaiport website primarily focuses on showcasing its extensive product catalog, allowing users to explore different patterns and colors. Additionally, the platform offers a membership feature, enabling users to create and save their preferred product selections for future reference.',
       },
-      {
-        name: 'Development',
-        description: 'Groad Web Service, Tani Huang',
-      },
-      {
-        name: 'Technical',
-        description: 'Adobe Photoshop, CSS, HTML, JQuery',
-      },
-      {
-        name: 'Year',
-        description: '2016',
-      },
+      // {
+      //   name: 'Year:',
+      //   description: '2016',
+      // },
     ],
     coverImage: kaiportCover,
     images: [
@@ -274,24 +247,16 @@ export const WORKS = [
     categories: [
       CATEGORY.development,
     ],
-    description: 'Champion REIT is a Hong Kong real estate investment trust, based in Asia.',
+    description: '',
     credit: [
       {
-        name: 'Design',
-        description: 'DigiSalad Limit',
+        name: 'Overview:',
+        description: 'Champion REIT (Real Estate Investment Trust) is a Hong Kong-based investment trust that owns and manages a high-quality portfolio of commercial properties, primarily investing in prime office and retail spaces to generate stable rental income and long-term capital appreciation for its stakeholders. It operates as a web-based corporate and investor relations platform, providing stakeholders with access to financial reports, investment insights, and real estate portfolio details. ',
       },
-      {
-        name: 'Development',
-        description: 'DigiSalad Limit, Tani Huang, Hanson Wu',
-      },
-      {
-        name: 'Technical',
-        description: 'Sketch, CSS, HTML, Vue, Nuxt',
-      },
-      {
-        name: 'Year',
-        description: '2019',
-      },
+      // {
+      //   name: 'Year:',
+      //   description: '2019',
+      // },
     ],
     coverImage: championreitCover,
     images: [
@@ -301,31 +266,23 @@ export const WORKS = [
   },
   {
     id: 8,
-    name: 'Tainan Member Centre',
-    slug: 'tainan-member-centre',
-    url: 'https://cititb.tainan.gov.tw/',
+    name: 'Tainan Member Center',
+    slug: 'tainan-member-center',
+    url: 'https://citi.tainan.gov.tw/',
     categories: [
-      CATEGORY.design,
+      CATEGORY.Design,
       CATEGORY.development,
     ],
     description: '',
     credit: [
       {
-        name: 'Design',
-        description: 'TOL Studio, Tani Huang',
+        name: 'Overview:',
+        description: 'The Tainan City Member Center is a digital platform designed to provide residents with a centralized hub for accessing various municipal services, benefits, and personalized information. It allows users to manage their memberships, participate in city programs, and stay updated with local government initiatives. The platform enhances convenience by integrating multiple city services into a single, user-friendly interface.',
       },
-      {
-        name: 'Development',
-        description: 'Tainan Goverment, TOL Studio, Tani Huang',
-      },
-      {
-        name: 'Technical',
-        description: 'Sketch, CSS, HTML, JavaScript',
-      },
-      {
-        name: 'Year',
-        description: '2020',
-      },
+      // {
+      //   name: 'Year:',
+      //   description: '2020',
+      // },
     ],
     coverImage: tcgCover,
     images: [
@@ -344,21 +301,13 @@ export const WORKS = [
     description: '',
     credit: [
       {
-        name: 'Design',
-        description: 'Groad Web Service',
+        name: 'Overview:',
+        description: 'Bravo Beer is a premium craft beer brand known for its high-quality brewing techniques and diverse flavor profiles, offering a unique and refreshing drinking experience for both casual drinkers and beer enthusiasts. It operates as a web-based e-commerce and brand showcase platform, allowing customers to explore different beer varieties, learn about the brewing process, and make online purchases. Designed to be responsive and user-friendly, the platform ensures a seamless experience across desktop and mobile devices, integrating features such as product recommendations, promotions, and membership benefits for loyal customers.',
       },
-      {
-        name: 'Development',
-        description: 'Tani Huang',
-      },
-      {
-        name: 'Technical',
-        description: 'Adobe Photoshop, CSS, HTML, JQuery',
-      },
-      {
-        name: 'Year',
-        description: '2017',
-      },
+      // {
+      //   name: 'Year:',
+      //   description: '2017',
+      // },
     ],
     coverImage: bravobeerCover,
     images: [
@@ -368,7 +317,7 @@ export const WORKS = [
   },
   {
     id: 10,
-    name: '大地假期旅遊網',
+    name: 'ACTWG 大地假期旅遊網',
     slug: 'actwg',
     url: 'https://www.actwg.com.tw/',
     categories: [
@@ -377,21 +326,13 @@ export const WORKS = [
     description: '',
     credit: [
       {
-        name: 'Design',
-        description: 'Groad Web Service',
+        name: 'Overview:',
+        description: 'ACTWG is a comprehensive travel platform offering a wide range of tour packages, customized travel services, and exclusive deals for both domestic and international travelers. With a focus on customer satisfaction, it ensures a seamless booking process and personalized services to enhance the travel experience. Operating as a web-based travel booking and information platform, it allows users to explore destinations, book tours, and access exclusive promotions. Designed for desktop and mobile accessibility, the platform integrates secure payment gateways, real-time booking management, and customer support features, providing a convenient and efficient travel planning experience.',
       },
-      {
-        name: 'Development',
-        description: 'Tani Huang',
-      },
-      {
-        name: 'Technical',
-        description: 'Adobe Photoshop, CSS, HTML, JQuery',
-      },
-      {
-        name: 'Year',
-        description: '2016',
-      },
+      // {
+      //   name: 'Year:',
+      //   description: '2016',
+      // },
     ],
     coverImage: actwgCover,
     images: [
@@ -410,21 +351,13 @@ export const WORKS = [
     description: '',
     credit: [
       {
-        name: 'Design',
-        description: 'Groad Web Service',
+        name: 'Overview:',
+        description: 'Silubr is a premium brand specializing in high-quality silverware, luxury home accessories, and personalized engraving services. Known for its craftsmanship and elegant designs, Silubr offers a diverse range of products, including silver jewelry, tableware, and decorative pieces that blend traditional artistry with modern aesthetics. In addition to exquisite silverware, the brand features a GIA calculation platform, allowing customers to assess and customize their jewelry purchases with precision. ',
       },
-      {
-        name: 'Development',
-        description: 'Tani Huang',
-      },
-      {
-        name: 'Technical',
-        description: 'Adobe Photoshop, CSS, HTML, JQuery',
-      },
-      {
-        name: 'Year',
-        description: '2016',
-      },
+      // {
+      //   name: 'Year:',
+      //   description: '2016',
+      // },
     ],
     coverImage: silubrCover,
     images: [
@@ -434,7 +367,7 @@ export const WORKS = [
   },
   {
     id: 12,
-    name: 'Aeon Credit Service M Bhd',
+    name: 'AEON 信貸',
     slug: 'aeon',
     url: 'https://www.aeon.com.hk/tc/index.html',
     categories: [
@@ -443,21 +376,13 @@ export const WORKS = [
     description: '',
     credit: [
       {
-        name: 'Design',
-        description: 'DigiSalad Limit',
+        name: 'Overview:',
+        description: 'AEON Credit Service (Asia) Co., Ltd. (AEON Credit) is a Hong Kong-based financial institution and a subsidiary of AEON Financial Service Co., Ltd. (AFS), a member of the AEON Group. Offering a range of credit cards such as Visa, MasterCard, JCB, and UnionPay, the company is committed to providing seamless financial solutions through its online user system and "AEON Hong Kong" mobile app, enabling users to apply for credit cards, loans, reward redemptions, cash advances, and insurance services.',
       },
-      {
-        name: 'Development',
-        description: 'DigiSalad Limit, Tani Huang',
-      },
-      {
-        name: 'Technical',
-        description: 'CSS, HTML, JQuery',
-      },
-      {
-        name: 'Year',
-        description: '2018',
-      },
+      // {
+      //   name: 'Year:',
+      //   description: '2018',
+      // },
     ],
     coverImage: aeonCover,
     images: [
@@ -476,21 +401,13 @@ export const WORKS = [
     description: '',
     credit: [
       {
-        name: 'Design',
-        description: 'DigiSalad Limit',
+        name: 'Overview:',
+        description: 'ONTOLO 朗濤, developed by Great Eagle Group (鷹君集團), is a premier waterfront residential development in Hong Kong, offering a sophisticated blend of modern design and natural beauty. As a web-based property showcase and sales platform, ONTOLO provides potential buyers and investors with an intuitive experience to explore the development, view detailed floor plans, and access essential property information. Optimized for desktop and mobile devices, the platform features virtual tours, appointment booking, and customer support, ensuring a seamless and immersive home-buying journey.',
       },
-      {
-        name: 'Development',
-        description: 'DigiSalad Limit, Tani Huang',
-      },
-      {
-        name: 'Technical',
-        description: 'CSS, HTML, VUE, NUXT',
-      },
-      {
-        name: 'Year',
-        description: '2019',
-      },
+      // {
+      //   name: 'Year:',
+      //   description: '2019',
+      // },
     ],
     coverImage: ontoloCover,
     images: [
@@ -502,28 +419,20 @@ export const WORKS = [
     id: 14,
     name: '理光香港 Ricoh',
     slug: 'ricoh',
-    url: 'https://www.ricoh.com.hk/',
+    url: 'https://training.ricoh.com.hk/en/',
     categories: [
       CATEGORY.development,
     ],
     description: '',
     credit: [
       {
-        name: 'Design',
-        description: 'DigiSalad Limit',
+        name: 'Overview:',
+        description: 'The Ricoh Hong Kong Training Registration Platform is an online system designed to facilitate complimentary training registration for Ricoh products. It enables users to register, reschedule, and manage training sessions, ensuring they can fully utilize Ricoh devices and solutions. The platform aims to enhance user proficiency, improve workflow efficiency, and maximize the value of Ricoh’s products through structured training programs.',
       },
-      {
-        name: 'Development',
-        description: 'DigiSalad Limit, Tani Huang',
-      },
-      {
-        name: 'Technical',
-        description: 'CSS, HTML, JQuery',
-      },
-      {
-        name: 'Year',
-        description: '2018',
-      },
+      // {
+      //   name: 'Year:',
+      //   description: '2018',
+      // },
     ],
     coverImage: ricohCover,
     images: [
@@ -543,21 +452,13 @@ export const WORKS = [
     description: '',
     credit: [
       {
-        name: 'Design',
-        description: 'DigiSalad Limit',
+        name: 'Overview:',
+        description: 'The Panasonic Life Solutions Hong Kong website is an interactive digital showcase designed to highlight Panasonic’s innovative products and solutions. Developed in collaboration with DigiSalad Limited in 2018, the platform enhances user engagement through dynamic animations and interactive effects, transforming static designs into an immersive browsing experience. This visually engaging approach reflects Panasonic’s commitment to cutting-edge technology and user-centric design.',
       },
-      {
-        name: 'Development',
-        description: 'DigiSalad Limit, Tani Huang',
-      },
-      {
-        name: 'Technical',
-        description: 'CSS, HTML, JQuery',
-      },
-      {
-        name: 'Year',
-        description: '2018',
-      },
+      // {
+      //   name: 'Year:',
+      //   description: '2018',
+      // },
     ],
     coverImage: panasonicCover,
     images: [
@@ -571,32 +472,190 @@ export const WORKS = [
     slug: 'face-recognize-project',
     url: 'https://www.b-futures.net/face_ai_camera_multi.html',
     categories: [
-      CATEGORY.design,
+      CATEGORY.Design,
       CATEGORY.development,
     ],
     description: '',
     credit: [
       {
-        name: 'Design',
-        description: 'B-Futures, Tani Huang',
+        name: 'Overview:',
+        description: 'The Face AI Camera Multi by B-Futures is an advanced facial recognition solution designed for security, access control, and smart monitoring applications. Utilizing AI-driven facial recognition technology, the system enables real-time identity verification, attendance tracking, and access management with high accuracy and efficiency. The project includes both a promotional website for showcasing the product and a backend management system for administrators to configure settings, monitor usage, and manage user data efficiently.',
       },
-      {
-        name: 'Development',
-        description: 'B-Futures, Tani Huang',
-      },
-      {
-        name: 'Technical',
-        description: 'Adobe Photoshop, CSS, HTML, JQuery, Gulp, Java (Spring Boot), Thymeleaf',
-      },
-      {
-        name: 'Year',
-        description: '2020',
-      },
+      // {
+      //   name: 'Year:',
+      //   description: '2020',
+      // },
     ],
     coverImage: facerecoganizeCover,
     images: [
       facerecoganizeImage1,
     ],
     isFeatured: true,
+  },
+  {
+    id: 17,
+    name: 'Kingwin',
+    slug: 'kingwin',
+    url: 'https://www.kingwin.tw/',
+    categories: [
+      CATEGORY.development,
+    ],
+    description: '',
+    credit: [],
+    coverImage: kingwinCover,
+    images: [
+      kingwinImage1,
+    ],
+  },
+  {
+    id: 18,
+    name: 'Sunming',
+    slug: 'sunming',
+    url: 'https://sunming-eye.com.tw/',
+    categories: [
+      CATEGORY.development,
+    ],
+    description: '',
+    credit: [],
+    coverImage: sunmingCover,
+    images: [],
+  },
+  {
+    id: 19,
+    name: 'Wcollections',
+    slug: 'wcollections',
+    url: 'https://www.wcollections.com.tw/',
+    categories: [
+      CATEGORY.development,
+    ],
+    description: '',
+    credit: [],
+    coverImage: wcollectionsCover,
+    images: [],
+  },
+  {
+    id: 20,
+    name: 'Finessewines',
+    slug: 'finessewines',
+    url: 'http://www.finessewines.com.tw/',
+    categories: [
+      CATEGORY.development,
+    ],
+    description: '',
+    credit: [],
+    coverImage: finessewinesCover,
+    images: [],
+  },
+  {
+    id: 21,
+    name: 'Edrhuang',
+    slug: 'edrhuang',
+    url: 'https://www.edrhuang.com.tw/',
+    categories: [
+      CATEGORY.development,
+    ],
+    description: '',
+    credit: [],
+    coverImage: edrhuangCover,
+    images: [],
+  },
+  {
+    id: 22,
+    name: 'Itsotea',
+    slug: 'itsotea',
+    url: 'https://www.itsotea.com/zh-tw',
+    categories: [
+      CATEGORY.development,
+    ],
+    description: '',
+    credit: [],
+    coverImage: itsoteaCover,
+    images: [],
+  },
+  {
+    id: 23,
+    name: 'Trsglobatas',
+    slug: 'trsglobatas',
+    url: 'http://www.trsglobetas.com/zh-tw',
+    categories: [
+      CATEGORY.development,
+    ],
+    description: '',
+    credit: [],
+    coverImage: trsglobatasCover,
+    images: [],
+  },
+  {
+    id: 24,
+    name: 'Art influence',
+    slug: 'artInfluence',
+    url: 'https://www.art-influence.com/zh-tw',
+    categories: [
+      CATEGORY.development,
+    ],
+    description: '',
+    credit: [],
+    coverImage: artInfluenceCover,
+    images: [],
+  },
+  {
+    id: 25,
+    name: 'Monday Test',
+    slug: 'mondayTest',
+    url: 'http://www.mondaytest.tw/',
+    categories: [
+      CATEGORY.development,
+    ],
+    description: '',
+    credit: [],
+    coverImage: mondayTestCover,
+    images: [],
+  },
+  {
+    id: 26,
+    name: 'Gi Translation',
+    slug: 'giTranslation',
+    url: 'http://www.gitranslation.com/mobi',
+    categories: [
+      CATEGORY.development,
+    ],
+    description: '',
+    credit: [],
+    coverImage: giTranslationCover,
+    images: [],
+  },
+  {
+    id: 27,
+    name: 'Sketch',
+    slug: 'sketch',
+    url: '',
+    categories: [
+      CATEGORY.other,
+    ],
+    description: '',
+    credit: [],
+    coverImage: sketchCover,
+    images: [
+      sketchImage1,
+    ],
+  },
+  {
+    id: 28,
+    name: 'Painting',
+    slug: 'painting',
+    url: '',
+    categories: [
+      CATEGORY.other,
+    ],
+    description: '',
+    credit: [],
+    coverImage: paintingCover,
+    images: [
+      paintingImage1,
+      paintingImage2,
+      paintingImage3,
+      paintingImage4,
+      paintingImage5,
+    ],
   },
 ];

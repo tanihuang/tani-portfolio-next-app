@@ -1,12 +1,15 @@
 @import '../resources';
 
 .home { 
-  
   main {
-
     p {
       max-width: rem(800px);
       color: $secondary-color;
+      a {
+        &:hover {
+          text-decoration: underline !important;
+        }
+      }
     }
   }
 }
