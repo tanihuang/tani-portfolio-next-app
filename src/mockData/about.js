@@ -16,8 +16,9 @@ export const ABOUT = [
     year: '2021 - 2022',
     title: 'Banking & Crowdfunding',
     company: 'Taiwan Business Bank',
-    description: 'Returning to Taiwan in 2021, Tani joined the IT Department at Taiwan Business Bank, where she worked on e-banking systems and digital banking services.',
+    description: '',
     responsibilities: [
+      'Returning to Taiwan in 2021, Tani joined the IT Department at Taiwan Business Bank, where she worked on e-banking systems and digital banking services.',
       'Maintaining and improving the existing e-banking platform.',
       'Developing and testing features such as subscription funds, online digital bank accounts, and e-loan services.',
       'In 2022, she transitioned into the crowdfunding industry at MyStartr, where she contributed to web development for online funding platforms, helping startups bring their ideas to life. This role further enhanced her technical expertise in fintech solutions, including secure transaction platforms and user engagement tools.',
@@ -28,8 +29,9 @@ export const ABOUT = [
     year: '2020 - 2021',
     title: 'Expanding into Full-Stack Skills in Tokyo',
     company: 'IT Company in Tokyo',
-    description: 'In 2020, she moved to Tokyo, Japan, to work in an IT company, further strengthening her technical expertise.',
+    description: '',
     responsibilities: [
+      'In 2020, she moved to Tokyo, Japan, to work in an IT company, further strengthening her technical expertise.',
       'Enhanced her frontend development skills while collaborating with cross-functional teams.',
       'Acquired back-end knowledge, including MySQL and Java.',
       'Developed a deeper understanding of the collaboration between design and engineering teams.',
@@ -40,8 +42,9 @@ export const ABOUT = [
     year: '2014 - 2018',
     title: 'Early Career in Digital Agencies',
     company: 'Various Digital Agencies in Taiwan',
-    description: 'Tani began her career in Taiwan’s digital agency industry, where she worked on various client projects focusing on web UI design and frontend development.',
+    description: '',
     responsibilities: [
+      'Tani began her career in Taiwan’s digital agency industry, where she worked on various client projects focusing on web UI design and frontend development.',
       'Designed visual interfaces using Sketch.',
       'Developed UI components with Vue.js and React.js.',
       'Gained experience in responsive web design and user-centered experiences.',

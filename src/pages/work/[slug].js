@@ -25,7 +25,7 @@ const WorkDetail = () => {
           'mb-2',
         )}
         >
-          {detail.name}
+          {detail.title}
         </h2>
         {
           detail.images?.map((item, index) => (

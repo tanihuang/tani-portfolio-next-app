@@ -6,35 +6,29 @@ import styles from '../../styles/components/work/item.module.scss';
 const redirect = '/images/redirect.png';
 
 const WorkItem = ({
-  name,
+  title,
+  subTitle,
   slug,
   url,
-  images,
   coverImage,
 }) => {
   const ImageComponent = (
-    <Image src={coverImage} alt={name} width={2000} height={1400} style={{ width: '100%', height: 'auto' }} />
+    <Image src={coverImage} alt={title} width={2000} height={1400} style={{ width: '100%', height: 'auto' }} />
   );
 
   return (
     slug ? (
-      <div className={classNames('item', styles.item)}>
+      <div className={classNames('item mb-3 cc', styles.item)}>
         <figure>
-          {images.length ? (
-            <Link href={`/work/${slug}`} legacyBehavior>
-              <a title={name} className={classNames(styles.image, 'mb-3')}>
-                {ImageComponent}
-              </a>
-            </Link>
-          ) : (
-            <a href={url} target="_blank" rel="noreferrer" title={name} className={classNames(styles.image, 'mb-3')}>
+          <Link href={`/work/${slug}`} legacyBehavior>
+            <a title={title} className={classNames(styles.image, 'mb-3')}>
               {ImageComponent}
             </a>
-          )}
-          <a href={url} target="_blank" rel="noreferrer" title={name} className={classNames(styles.button)}>
+          </Link>
+          <a href={url} target="_blank" rel="noreferrer" title={title} className={classNames(styles.button)}>
             <Image
               src={redirect}
-              alt={name}
+              alt={title}
               width={24}
               height={24}
               className="img-fluid"
@@ -42,12 +36,13 @@ const WorkItem = ({
           </a>
         </figure>
         <Link href={`/work/${slug}`} legacyBehavior>
-          <a title={name}>
-            <h3 className={styles.name}>
-              {name}
+          <a title={title}>
+            <h3 className={`${styles.title} mb-0`}>
+              {title}
             </h3>
           </a>
         </Link>
+        <p className={`${styles.subTitle} mt-2`}>{subTitle}</p>
       </div>
     ) : (
       <div className={classNames('item', styles.item)}>
@@ -56,23 +51,24 @@ const WorkItem = ({
             href={url}
             target="_blank"
             rel="noreferrer"
-            title={name}
+            title={title}
             className={classNames(
               styles.image,
               'mb-3',
             )}
           >
-            <img src={coverImage} className="img-fluid" alt={name} />
+            <img src={coverImage} className="img-fluid" alt={title} />
           </a>
-          <a href={url} target="_blank" rel="noreferrer" title={name} className={classNames(styles.button)}>
-            <img src={redirect} className="img-fluid" alt={name} />
+          <a href={url} target="_blank" rel="noreferrer" title={title} className={classNames(styles.button)}>
+            <img src={redirect} className="img-fluid" alt={title} />
           </a>
         </figure>
-        <a href={url} target="_blank" rel="noreferrer" title={name}>
-          <h3 className={styles.name}>
-            {name}
+        <a href={url} target="_blank" rel="noreferrer" title={title}>
+          <h3 className={styles.title}>
+            {title}
           </h3>
         </a>
+        <p className={`${styles.subTitle} mt-2`}>{subTitle}</p>
       </div>
     )
   );

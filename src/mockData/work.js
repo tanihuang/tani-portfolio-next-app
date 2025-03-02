@@ -92,7 +92,8 @@ export const CATEGORY = {
 export const WORKS = [
   {
     id: 1,
-    name: 'MyStartr Crowdfunding Platform',
+    title: 'MyStartr Crowdfunding Platform',
+    subTitle: '',
     slug: 'mystartr',
     url: 'https://www.mystartr.com',
     categories: [
@@ -117,7 +118,8 @@ export const WORKS = [
   },
   {
     id: 2,
-    name: 'Taiwan Business Bank',
+    title: 'Taiwan Business Bank',
+    subTitle: '',
     slug: 'tbb',
     url: 'https://ebank.tbb.com.tw/nb3/login',
     categories: [
@@ -142,7 +144,8 @@ export const WORKS = [
   },
   {
     id: 3,
-    name: '永利澳門－酒店訂房系統',
+    title: '永利澳門－酒店訂房系統',
+    subTitle: '',
     slug: 'wynn',
     url: '',
     categories: [
@@ -167,7 +170,8 @@ export const WORKS = [
   },
   {
     id: 4,
-    name: 'CookingPal',
+    title: 'CookingPal',
+    subTitle: '',
     slug: 'cookingpal',
     url: 'https://www.cookingpal.com/',
     categories: [
@@ -192,7 +196,8 @@ export const WORKS = [
   },
   {
     id: 5,
-    name: '兆豐銀行－「房貸E把兆」房屋估價網站',
+    title: '兆豐銀行－「房貸E把兆」房屋估價網站',
+    subTitle: '',
     slug: 'megabank',
     url: 'https://estimation.megabank.com.tw/',
     categories: [
@@ -217,7 +222,8 @@ export const WORKS = [
   },
   {
     id: 6,
-    name: 'Kaiport',
+    title: 'Kaiport',
+    subTitle: '',
     slug: 'kaiport',
     url: 'https://www.kaiport.com',
     categories: [
@@ -243,7 +249,8 @@ export const WORKS = [
   },
   {
     id: 7,
-    name: 'ChampionREIT',
+    title: 'ChampionREIT',
+    subTitle: '',
     slug: 'championreit',
     url: 'https://www.championreit.com/',
     categories: [
@@ -268,7 +275,8 @@ export const WORKS = [
   },
   {
     id: 8,
-    name: 'Tainan Member Center',
+    title: 'Tainan Member Center',
+    subTitle: '',
     slug: 'tainan-member-center',
     url: 'https://citi.tainan.gov.tw/',
     categories: [
@@ -294,7 +302,8 @@ export const WORKS = [
   },
   {
     id: 9,
-    name: 'Bravo Beer',
+    title: 'Bravo Beer',
+    subTitle: '',
     slug: 'bravo-beer',
     url: 'http://www.bravobeer.com.tw/',
     categories: [
@@ -319,7 +328,8 @@ export const WORKS = [
   },
   {
     id: 10,
-    name: 'ACTWG 大地假期旅遊網',
+    title: 'ACTWG 大地假期旅遊網',
+    subTitle: '',
     slug: 'actwg',
     url: 'https://www.actwg.com.tw/',
     categories: [
@@ -344,7 +354,8 @@ export const WORKS = [
   },
   {
     id: 11,
-    name: 'Silubr 施鉑',
+    title: 'Silubr 施鉑',
+    subTitle: '',
     slug: 'silubr',
     url: 'https://www.silubr.com.tw/',
     categories: [
@@ -369,7 +380,8 @@ export const WORKS = [
   },
   {
     id: 12,
-    name: 'AEON 信貸',
+    title: 'AEON 信貸',
+    subTitle: '',
     slug: 'aeon',
     url: 'https://www.aeon.com.hk/tc/index.html',
     categories: [
@@ -394,7 +406,8 @@ export const WORKS = [
   },
   {
     id: 13,
-    name: 'ONTOLO 朗濤| 鷹君集團',
+    title: 'ONTOLO 朗濤| 鷹君集團',
+    subTitle: '',
     slug: 'ontolo',
     url: 'https://www.ontolo.com.hk/landing',
     categories: [
@@ -419,7 +432,8 @@ export const WORKS = [
   },
   {
     id: 14,
-    name: '理光香港 Ricoh',
+    title: '理光香港 Ricoh',
+    subTitle: '',
     slug: 'ricoh',
     url: 'https://training.ricoh.com.hk/en/',
     categories: [
@@ -444,7 +458,8 @@ export const WORKS = [
   },
   {
     id: 15,
-    name: 'Panasonic Animation',
+    title: 'Panasonic Animation',
+    subTitle: '',
     slug: 'panasonic-animation',
     url: 'https://www.plshk.panasonic.hk/sites/all/modules/custom/web_animation/html/build/index.html',
     categories: [
@@ -470,7 +485,8 @@ export const WORKS = [
   },
   {
     id: 16,
-    name: 'Face recognize project',
+    title: 'Face recognize project',
+    subTitle: '',
     slug: 'face-recognize-project',
     url: 'https://www.b-futures.net/face_ai_camera_multi.html',
     categories: [
@@ -496,7 +512,8 @@ export const WORKS = [
   },
   {
     id: 17,
-    name: 'Kingwin',
+    title: 'Kingwin',
+    subTitle: '',
     slug: 'kingwin',
     url: 'https://www.kingwin.tw/',
     categories: [
@@ -512,8 +529,8 @@ export const WORKS = [
   },
   {
     id: 18,
-    name: 'Sunming',
-    slug: 'sunming',
+    title: 'Sunming',
+    subTitle: '',
     url: 'https://sunming-eye.com.tw/',
     categories: [
       CATEGORY.development,
@@ -525,8 +542,8 @@ export const WORKS = [
   },
   {
     id: 19,
-    name: 'Wcollections',
-    slug: 'wcollections',
+    title: 'Wcollections',
+    subTitle: '',
     url: 'https://www.wcollections.com.tw/',
     categories: [
       CATEGORY.development,
@@ -538,8 +555,8 @@ export const WORKS = [
   },
   {
     id: 20,
-    name: 'Finessewines',
-    slug: 'finessewines',
+    title: 'Finessewines',
+    subTitle: '',
     url: 'http://www.finessewines.com.tw/',
     categories: [
       CATEGORY.development,
@@ -551,8 +568,8 @@ export const WORKS = [
   },
   {
     id: 21,
-    name: 'Edrhuang',
-    slug: 'edrhuang',
+    title: 'Edrhuang',
+    subTitle: '',
     url: 'https://www.edrhuang.com.tw/',
     categories: [
       CATEGORY.development,
@@ -564,8 +581,8 @@ export const WORKS = [
   },
   {
     id: 22,
-    name: 'Itsotea',
-    slug: 'itsotea',
+    title: 'Itsotea',
+    subTitle: '',
     url: 'https://www.itsotea.com/zh-tw',
     categories: [
       CATEGORY.development,
@@ -577,8 +594,8 @@ export const WORKS = [
   },
   {
     id: 23,
-    name: 'Trsglobatas',
-    slug: 'trsglobatas',
+    title: 'Trsglobatas',
+    subTitle: '',
     url: 'http://www.trsglobetas.com/zh-tw',
     categories: [
       CATEGORY.development,
@@ -590,8 +607,8 @@ export const WORKS = [
   },
   {
     id: 24,
-    name: 'Art influence',
-    slug: 'artInfluence',
+    title: 'Art influence',
+    subTitle: '',
     url: 'https://www.art-influence.com/zh-tw',
     categories: [
       CATEGORY.development,
@@ -603,8 +620,8 @@ export const WORKS = [
   },
   {
     id: 25,
-    name: 'Monday Test',
-    slug: 'mondayTest',
+    title: 'Monday Test',
+    subTitle: '',
     url: 'http://www.mondaytest.tw/',
     categories: [
       CATEGORY.development,
@@ -616,8 +633,8 @@ export const WORKS = [
   },
   {
     id: 26,
-    name: 'Gi Translation',
-    slug: 'giTranslation',
+    title: 'Gi Translation',
+    subTitle: '',
     url: 'http://www.gitranslation.com/mobi',
     categories: [
       CATEGORY.development,
@@ -629,7 +646,8 @@ export const WORKS = [
   },
   {
     id: 27,
-    name: 'Sketch',
+    title: 'Sketch',
+    subTitle: 'Pancel',
     slug: 'sketch',
     url: '',
     categories: [
@@ -644,7 +662,8 @@ export const WORKS = [
   },
   {
     id: 28,
-    name: 'Painting',
+    title: 'Painting',
+    subTitle: 'Pastel / Watercolor / Oil painting / Chinese Brush Painting',
     slug: 'Painting',
     url: '',
     categories: [

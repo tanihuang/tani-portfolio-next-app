@@ -3,9 +3,7 @@
 .item {  
 
   figure {
-
     position: relative;
-
     &:before {
       content: '';
       position: absolute;
@@ -20,7 +18,6 @@
     }
 
     .image {
-
       overflow: hidden;
       img {
         transition: all 0.3s;
@@ -44,17 +41,14 @@
     }
 
     &:hover {
-
       &:before {
         opacity: 1;
       }
-
       .image {
         img {
           transform: scale(1.05);
         }
       }
-
       .button {
         opacity: 1;
       }
@@ -63,6 +57,9 @@
 
   h3 {
     color: $secondary-color;
+  }
+  .subTitle {
+    color: #b3b3b3;
   }
 
 }

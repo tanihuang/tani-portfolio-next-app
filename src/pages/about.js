@@ -43,8 +43,10 @@ const About = () => {
               {ABOUT.map((item) => (
                 <Col key={item.id} lg={12} className={styles['grid-item']}>
                   <h2 className={`${styles.title} mb-2`}>{`${item.title} (${item.year})`}</h2>
+                  {item.description && (
+                    <p>{item.description}</p>
+                  )}
                   <ul>
-                    <li>{item.description}</li>
                     {item.responsibilities && (
                       item.responsibilities.map((task) => (
                         <li key={task}>{task}</li>

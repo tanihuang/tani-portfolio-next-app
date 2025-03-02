@@ -16,6 +16,7 @@ const Home = () => {
         <h2 className="font-weight-light mb-4">Frontend Web Developer</h2>
         <p className={classNames('mb-4')}>
           Tani Huang is a frontend web developer based in Taiwan who has a deep passion for
+          <br />
           building engaging and user-friendly online experiences that balance design and usability.
           <Link href="/work" passHref legacyBehavior>
             <Nav.Link title="Work" className="ms-2 d-inline text-decoration-underline">View more works</Nav.Link>
