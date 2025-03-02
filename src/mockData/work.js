@@ -531,6 +531,7 @@ export const WORKS = [
     id: 18,
     title: 'Sunming',
     subTitle: '',
+    slug: '',
     url: 'https://sunming-eye.com.tw/',
     categories: [
       CATEGORY.development,
@@ -544,6 +545,7 @@ export const WORKS = [
     id: 19,
     title: 'Wcollections',
     subTitle: '',
+    slug: '',
     url: 'https://www.wcollections.com.tw/',
     categories: [
       CATEGORY.development,
@@ -557,6 +559,7 @@ export const WORKS = [
     id: 20,
     title: 'Finessewines',
     subTitle: '',
+    slug: '',
     url: 'http://www.finessewines.com.tw/',
     categories: [
       CATEGORY.development,
@@ -570,6 +573,7 @@ export const WORKS = [
     id: 21,
     title: 'Edrhuang',
     subTitle: '',
+    slug: '',
     url: 'https://www.edrhuang.com.tw/',
     categories: [
       CATEGORY.development,
@@ -583,6 +587,7 @@ export const WORKS = [
     id: 22,
     title: 'Itsotea',
     subTitle: '',
+    slug: '',
     url: 'https://www.itsotea.com/zh-tw',
     categories: [
       CATEGORY.development,
@@ -596,6 +601,7 @@ export const WORKS = [
     id: 23,
     title: 'Trsglobatas',
     subTitle: '',
+    slug: '',
     url: 'http://www.trsglobetas.com/zh-tw',
     categories: [
       CATEGORY.development,
@@ -609,6 +615,7 @@ export const WORKS = [
     id: 24,
     title: 'Art influence',
     subTitle: '',
+    slug: '',
     url: 'https://www.art-influence.com/zh-tw',
     categories: [
       CATEGORY.development,
@@ -622,6 +629,7 @@ export const WORKS = [
     id: 25,
     title: 'Monday Test',
     subTitle: '',
+    slug: '',
     url: 'http://www.mondaytest.tw/',
     categories: [
       CATEGORY.development,
@@ -635,6 +643,7 @@ export const WORKS = [
     id: 26,
     title: 'Gi Translation',
     subTitle: '',
+    slug: '',
     url: 'http://www.gitranslation.com/mobi',
     categories: [
       CATEGORY.development,

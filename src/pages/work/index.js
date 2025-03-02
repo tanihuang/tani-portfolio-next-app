@@ -1,11 +1,10 @@
-// import { useCallback, useEffect } from 'react';
 import { useState, useEffect, useRef } from 'react';
 import Container from 'react-bootstrap/Container';
 import Layout from '../../components/layout/Layout';
 import WorkNav from '../../components/work/Nav';
 import WorkList from '../../components/work/List';
-import styles from '../../styles/pages/work.module.scss';
 import { WORKS, CATEGORY } from '../../mockData/work';
+import styles from '../../styles/pages/work.module.scss';
 
 const Work = () => {
   const [works, setWorks] = useState(WORKS);

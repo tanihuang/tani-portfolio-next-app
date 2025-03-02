@@ -2,6 +2,13 @@
 
 .item {  
 
+  .title {
+    color: $secondary-color;
+  }
+  .subTitle {
+    color: #b3b3b3;
+  }
+
   figure {
     position: relative;
     &:before {
@@ -54,12 +61,4 @@
       }
     }
   }
-
-  h3 {
-    color: $secondary-color;
-  }
-  .subTitle {
-    color: #b3b3b3;
-  }
-
 }

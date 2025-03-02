@@ -54,7 +54,7 @@ const WorkList = forwardRef(({ works, onIsotopeReady = () => {} }, ref) => {
       <Row ref={gridRef}>
         {works.map((item) => (
           <Col key={item.id} md={6} lg={4} className={`grid-item ${item.categories.join(' ')}`}>
-            <WorkItem {...item} />
+            <WorkItem {...item} iso={iso} />
           </Col>
         ))}
       </Row>
