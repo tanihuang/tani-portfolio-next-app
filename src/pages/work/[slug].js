@@ -95,9 +95,11 @@ const WorkDetail = () => {
 };
 
 export async function getStaticPaths() {
-  const paths = WORKS.map((item) => ({
-    params: { slug: item.slug },
-  }));
+  const paths = WORKS
+    .filter((item) => item.slug)
+    .map((item) => ({
+      params: { slug: item.slug },
+    }));
 
   return {
     paths,
