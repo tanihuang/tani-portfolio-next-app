@@ -9,11 +9,11 @@ import { ABOUT } from '../mockData/about';
 import styles from '../styles/pages/about.module.scss';
 
 const About = () => {
-  const [open, setOpen] = useState(true); // State to control collapse
+  const [open, setOpen] = useState(true);
 
   return (
-    <Layout className={styles.about}>
-      <Container>
+    <Layout>
+      <Container className={styles.about}>
         <h2 className="mb-3">About</h2>
         <p className="mb-3">
           Tani Huang is a Taiwanese frontend web developer passionate about building responsive and high-performance web experiences. With expertise in web development, custom design, interactive animations, and backend admin systems, she creates seamless and engaging digital solutions.
@@ -58,13 +58,15 @@ const About = () => {
         </Collapse>
 
         <h2 className="mt-5 mb-3">Skills & Technologies</h2>
-        <div className={styles['grid-item']}>
+        <div>
           <ul style={{
             padding: 0,
             margin: 0,
             listStyle: 'none',
             display: 'flex',
-            gap: '10px',
+            flexWrap: 'wrap',
+            rowGap: '0',
+            columnGap: '10px',
           }}
           >
             <li>CSS</li>

@@ -10,12 +10,8 @@ import { WORKS } from '../mockData/work';
 const Home = () => {
   const featuredWorks = WORKS.filter((item) => item.isFeatured);
   return (
-    <Layout className={classNames(
-      'home',
-      styles.home,
-    )}
-    >
-      <Container>
+    <Layout>
+      <Container className={classNames('home', styles.home)}>
         <h2 className="mb-2">Tani Huang</h2>
         <h2 className="font-weight-light mb-4">Frontend Web Developer</h2>
         <p className={classNames('mb-4')}>

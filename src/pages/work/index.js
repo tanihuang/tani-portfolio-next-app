@@ -25,8 +25,8 @@ const Work = () => {
   }, [isoReady, activeKey]);
 
   return (
-    <Layout className={styles.work}>
-      <Container>
+    <Layout>
+      <Container className={styles.work}>
         <h2 className="mb-3">Work</h2>
         <WorkNav
           activeKey={activeKey}

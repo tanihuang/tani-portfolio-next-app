@@ -83,8 +83,8 @@ const sketchCover = '/images/del/art_sketch.jpg';
 const sketchImage1 = '/images/del/art_sketch1.jpg';
 
 export const CATEGORY = {
-  design: 'Web-Design',
   development: 'Web-Development',
+  design: 'Web-Design',
   animation: 'Animation',
   other: 'Other',
 };
@@ -644,8 +644,8 @@ export const WORKS = [
   },
   {
     id: 28,
-    name: 'Pastel',
-    slug: 'Pastel',
+    name: 'Painting',
+    slug: 'Painting',
     url: '',
     categories: [
       CATEGORY.other,

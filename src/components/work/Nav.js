@@ -5,13 +5,13 @@ import styles from '../../styles/components/work/nav.module.scss';
 
 const WorkNav = ({ activeKey, onSelect }) => (
   <Nav
-    activeKey={activeKey}
+    activeKey={CATEGORY[activeKey]}
     onSelect={onSelect}
     className={classNames(styles.nav, 'mb-4')}
   >
     {Object.entries(CATEGORY).map(([key, label]) => (
       <Nav.Item key={key}>
-        <Nav.Link eventKey={key}>{label}</Nav.Link>
+        <Nav.Link eventKey={CATEGORY[key]}>{label}</Nav.Link>
       </Nav.Item>
     ))}
   </Nav>

@@ -19,11 +19,8 @@ const WorkDetail = () => {
   }
 
   return (
-    <Layout className={classNames(
-      styles.detail,
-    )}
-    >
-      <Container>
+    <Layout>
+      <Container className={classNames(styles.detail)}>
         <h2 className={classNames(
           'mb-2',
         )}

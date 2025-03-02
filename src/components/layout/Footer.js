@@ -15,7 +15,7 @@ const Footer = () => {
     >
       <Container>
         <Row>
-          <Col>
+          <Col xs={12} md={6} className="d-flex flex-column justify-content-center justify-content-md-end text-center text-md-start">
             <p>Connect with me elsewhere</p>
             <ul>
               {
@@ -29,11 +29,18 @@ const Footer = () => {
               }
             </ul>
           </Col>
-          <Col>
-            <ul className="mt-auto ml-auto">
-              <li>
+          <Col xs={12} md={6} className="d-flex justify-content-center justify-content-md-end mt-3 mt-md-0">
+            <ul className="di-flex mt-auto ml-auto">
+              {/* <li>
                 <Link href="/login" legacyBehavior>
                   <a title="Login">Login</a>
+                </Link>
+              </li> */}
+              <li>
+                <Link href="#" legacyBehavior>
+                  <a title={`Copyright © ${new Date().getFullYear()} Tani Huang`}>
+                    Copyright © {new Date().getFullYear()} Tani Huang
+                  </a>
                 </Link>
               </li>
             </ul>

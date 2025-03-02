@@ -9,4 +9,9 @@ export const SOCIAL_PLATFORMS = [
     name: 'Medium',
     url: 'https://tanihuang.medium.com/',
   },
+  {
+    id: '3',
+    name: 'Github',
+    url: 'https://github.com/tanihuang',
+  },
 ];
