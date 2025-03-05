@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { TEXT } from '../../mockData/global';
+import { HEADER } from '../../mockData/header';
 
 const Header = () => {
   const [isMenuOpened, setIsMenuOpened] = useState(false);
@@ -35,20 +35,31 @@ const Header = () => {
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
             onClick={handleTogglerClick}
+            className={isMenuOpened ? 'show' : ''}
           />
         </Container>
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" in={isMenuOpened}>
           <Nav className="mr-auto">
             <Container>
-              <Link href="/about" passHref legacyBehavior>
-                <Nav.Link title="About">About</Nav.Link>
-              </Link>
-              <Link href="/work" passHref legacyBehavior>
-                <Nav.Link title="Work">Work</Nav.Link>
-              </Link>
-              <Nav.Link href={`mailto:${TEXT.email}`} title="Contact">Contact</Nav.Link>
+              {HEADER.map(({ id, title, url }) => (
+                <Link href={url} key={id} passHref legacyBehavior>
+                  <Nav.Link
+                    title={title}
+                    onClick={() => setIsMenuOpened(false)}
+                  >
+                    {title}
+                  </Nav.Link>
+                </Link>
+              ))}
               {/* eslint-disable-next-line */}
-              <a title="Studio" href="https://theotherleaf.github.io/en" target="_blank">Studio</a>
+              <a 
+                title="Studio"
+                href="https://theotherleaf.github.io/en"
+                target="_blank"
+                onClick={() => setIsMenuOpened(false)}
+              >
+                Studio
+              </a>
             </Container>
           </Nav>
         </Navbar.Collapse>

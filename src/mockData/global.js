@@ -3,9 +3,6 @@ export const BUTTON = {
   next: 'Next',
 };
 
-export const TEXT = {
-  email: 'tannihuang@gmail.com',
-};
 
 
 
